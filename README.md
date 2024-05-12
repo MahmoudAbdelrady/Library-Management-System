@@ -13,7 +13,6 @@ manage books, patrons, and borrowing records efficiently.
    - [Patrons Endpoints](#patrons-endpoints)
    - [Borrowing Endpoints](#borrowing-endpoints)
    - [Login Endpoint](#login-endpoint)
-4. [Authentication](#authentication)
 
 ## Prerequisites
 
@@ -29,13 +28,17 @@ To run the Library Management System API:
 1. Clone this repository to your local machine.
 2. Navigate to the project directory in your terminal or command prompt.
 3. Build the project using Maven:
+
    ```
    mvn clean install
    ```
+
 4. Run the application using the Spring Boot Maven plugin:
+
    ```
    mvn spring-boot:run
    ```
+
 5. Once the application is running, it will be accessible at `http://localhost:8080`.
 
 ### Providing Configuration
